@@ -1,0 +1,57 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Archivos de configuración o logs
+*.log
+*.tmp
+*.bak
+
+# Archivos de Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de datos generados
+*.npz
+*.npy
+*.xlsx
+*.zip
+*.tar.gz
+
+# Archivos multimedia y crudos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Notebooks con salidas (opcional)
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Jupyter runtime y kernels
+.cache/
+jupyter_notebook_config.py
+**/.ipynb_checkpoints/
+**/.mypy_cache/
+
+# VSCode settings (si usas VSCode)
+.vscode/
+
+
+raw_data/segments/
+data_storage/csv_by_window/*.csv
+data_storage/csv_by_frame/*.csv
+
+
+# Sistemas específicos
+.DS_Store
+Thumbs.db
+
+# Archivos del sistema
+*.swp
+*.swo
